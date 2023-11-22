@@ -18,7 +18,7 @@ def output_fixture(capsys):
 
 def test_open_file():
     try:
-        with open("sampleSubmissionA1/README.txt", 'r') as file:
+        with open("sampleSubmissionA1/README.md", 'r') as file:
             content = file.read()
         assert True is True
     except Exception as e:
