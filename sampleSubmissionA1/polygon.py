@@ -13,6 +13,7 @@ def polygon(nodes):
         return result
     else:
         return "Input is not a list"
+
 def triang(n1,n2,n3):
     if n1==n2==n3:
         return "Equilateral"
